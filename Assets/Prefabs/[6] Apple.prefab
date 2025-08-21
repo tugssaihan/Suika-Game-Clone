@@ -102,6 +102,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fa8580aa6e35ee642806f298bb3d96f1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  fruitSpawner: {fileID: 4943129439820627386, guid: d99bb6d32dd40a543b4fc69a7846e95d, type: 3}
+  type: 5
 --- !u!58 &8809723553812554708
 CircleCollider2D:
   m_ObjectHideFlags: 0

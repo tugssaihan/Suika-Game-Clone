@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4157981895820295477
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7495650587388726054}
+  - component: {fileID: 4943129439820627386}
+  m_Layer: 0
+  m_Name: FruitSpawner
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7495650587388726054
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4157981895820295477}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.66101, y: 0.38958, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4943129439820627386
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4157981895820295477}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 37b8ff5450fc38b4cb5714001a12c993, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fruitPrefabs:
+  - {fileID: 7304652305600672007, guid: 7348bcd94ffc14f4d917037a37a2218a, type: 3}
+  - {fileID: 2154911835289559327, guid: d422a7eb36bf929468870e7c32c31708, type: 3}
+  - {fileID: 5870755492326793008, guid: ed3ce03c145b93d46bef8e2e3e277844, type: 3}
+  - {fileID: 5353620998694666590, guid: cd5647954309b394090f276e5825e225, type: 3}
+  - {fileID: 3443145333064657650, guid: 2c035f34c5b8f394bab0883b6839ac8e, type: 3}
+  - {fileID: 2060650836686753381, guid: c9c3ada42f611814991e008de1682ef7, type: 3}
+  - {fileID: 4136750365343459594, guid: 929939cc6ab281b488bf8e301cf926fc, type: 3}
+  - {fileID: 2956506163214780241, guid: 1d49bec84c33b054ab8b4b2b8da7df96, type: 3}
+  - {fileID: 2358976314576428175, guid: ee6e445bd2c6ea94c87b725f719c7cf7, type: 3}
+  - {fileID: 8307612434051218600, guid: b8154ce008a48b94fbcf630d63d0c7ab, type: 3}
+  - {fileID: 3715653604878873448, guid: c23bb0d7cbe3ff7488ba250d021e95cc, type: 3}
